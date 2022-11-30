@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    
+}
+
+#portal {
+    background-color: #008080;
+    font-size: 45px;
+    color: #ffffff;
+    /* top: 0px;
+    left: 0px; */
+    display: block;
+    width: 100%;
+    height: 10%;
+    padding-left: 1rem;
+}
+
+#upper {
+    display: flex;
+    min-height: 11%;
+    border: 1px #d3d3d3 solid;
+
+}
+
+#lower {
+    display: block;
+    min-height: 85%;
+    max-height: 20rem;
+    border: 1px #f5f5f5 solid;
+    background-color: #f5f5f5;
+    overflow: scroll;
+}
+
+#left {
+    width: 40%;
+    max-width: 40%;
+    min-width: 40%;
+    min-height: 70%;
+    border: 1px #d3d3d3 solid;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#lbutton {
+    background-color: #0069d9;
+    color: #fff6f5;
+    font-size: 17px;
+    border-radius: 8px;
+    min-height: 15px;
+    border: 1px rgb(43, 43, 43) solid;
+}
+#lbutton:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+
+}
+
+#rbutton {
+    margin-top: 0.5em;
+    margin-left: 32em;
+    background-color: #0069d9;
+    color: #fff6f5;
+    border: 1px solid rgb(29, 29, 29);
+    font-size: 15px;
+    border-radius: 4px;
+}
+#rubtton:active {
+        transform: scale(0.98);
+        /* Scaling button to 0.98 to its original size */
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+        /* Lowering the shadow */
+    
+    }
+
+
+#welcome {
+    padding: 3em;
+    padding-top: 1.5em;
+}
+
+#upper input {
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#upper div {
+    margin: auto;
+
+}
+
+#right {
+    background-color: #ffffff;
+    width: 60%;
+    min-height: 90vh;
+    border: 1px #d3d3d3 solid;
+
+}
+
+.contain {
+    display: block;
+    margin-top: 5px;
+}
+
+#input2 {
+    display: block;
+    width: 40em;
+    height: 10rem;
+}
+
+#right h1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    font-size: 2.5em;
+}
+
+#right h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    font-weight: 500;
+}
+
+
+#main {
+    display: flex;
+    height: 90vh;
+    width: 1250px;
+    border: 1px #d3d3d3 solid;
+
+}
+
+.question {
+    word-wrap: break-word;
+    max-width: 100%;
+
+}
+
+.Bold {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 0.2em;
+}
+
+p {
+    display: block;
+    pointer-events: none;
+    margin: 0px;
+}
+
+.quesdiv {
+    margin-bottom: 0px;
+    padding-left: 0.5rem;
+    padding: 1em 1em 1em 0.5em;
+    border-bottom: 1px grey solid;
+    border-radius: 8px;
+    /* background-color: #a8a8a8; */
+    max-height: 5rem;
+
+
+}
+
+.quesdiv:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+
+}
+
+.staticDiv {
+    padding: 1.5em;
+}
+
+.response {
+    pointer-events: all;
+    padding-bottom: 0.5em;
+
+}
+
+.heading {
+    font-weight: 800;
+    font-size: 2em;
+    padding-bottom: 15px;
+}
+
+.addbutton {
+    background-color: #0069d9;
+    color: #fff6f5;
+    font-size: 13px;
+    border-radius: 5px;
+    min-height: 15px;
+    border: 1px black solid;
+    margin: 0.5em;
+}
+.addbutton:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+
+}
+
+.addreso {
+    margin-left: 34em;
+}
+
+.responseHeadContainer {
+    background-color: #e4e4e4;
+    border-radius: 35px;
+    padding-left: 2em;
+    border: 1px black solid;
+}
+
+.addDiv {
+    background-color: yellow;
+}
+
+.respo {
+    background-color: white;
+}
+
+.divcom {
+    background-color: #e4e4e4;
+    border-bottom: 1px rgb(116, 116, 116) solid;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 7px;
+    word-wrap: break-word;
+}
+.divcomContainer{
+    /* overflow: scroll; */
+    overflow-y: scroll;
+    max-height: 15rem;
+    padding-right:1em;
+    padding-left:0.5em;
+}
+
+.responsehead {
+    margin: 5px 0px;
+}
+
+.responsepara {
+    pointer-events: all;
+}
+
+.likeimg {
+    width: 17px;
+    height: 17px;
+    margin-left: 12em;
+    pointer-events: all;
+}
+
+
+.dislikeimg {
+    width: 17px;
+    height: 17px;
+    margin-left: 2em;
+   pointer-events: all;
+}
+
+.spans{
+    pointer-events: none;
+}
+
+.star{
+    width:25px;
+    height: 25px;
+    margin-left: 2em;
+}
+
+.timespan{
+    margin-left: 1em;
+    pointer-events: none;
+}
